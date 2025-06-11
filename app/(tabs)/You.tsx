@@ -1,6 +1,7 @@
 import React from 'react';
 import { Platform, SafeAreaView, StatusBar, StyleSheet, Text, View } from 'react-native';
 import Hisory from '../components/Hisory';
+import PlayList from '../components/PlayList';
 import YouBar from '../components/YouBar';
 import YouTopBar from '../components/YouTopBar';
 
@@ -27,6 +28,7 @@ const You = () => {
             </View>
             <YouBar/>
             <Hisory/>
+            <PlayList/>
         </SafeAreaView>
     );
 }
